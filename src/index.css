@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:wght@300;400;500;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --violet: #6D28D9;
+  --magenta: #DB2777;
+  --darkgray: #1F2937;
+  --offwhite: #F8FAFC;
+}
+
+body {
+  @apply font-jost bg-offwhite text-navy min-h-screen;
+}
